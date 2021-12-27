@@ -40,7 +40,7 @@ function Center() {
 
     return (
         <section role='main-content' className="h-screen scrollbar-hide flex-grow overflow-y-auto">
-            <header className={`p-10 h-80 bg flex bg-gradient-to-b items-end ${color} to-black`}>
+            <header className={`relative p-10 h-80 bg flex bg-gradient-to-b items-end ${color} to-black`}>
                 <div className="basis-40 min-w-[5rem] overflow-hidden aspect-square">
                     <img src={playlist?.images?.[0]?.url} className="object-cover w-full h-full"/>
                 </div>

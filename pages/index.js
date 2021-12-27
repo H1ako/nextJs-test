@@ -1,24 +1,23 @@
 import { getSession } from 'next-auth/react'
 import Head from 'next/head'
 import Center from '../components/Center'
+import Player from '../components/Player'
 import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col h-screen">
       <Head>
         <title>Spotify</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' bg-black flex w-screen'>
+      <main className='flex-shrink bg-black flex h-screen'>
         <Sidebar/>
         <Center/>
       </main>
 
-      <div className="">
-        {/* Player */}
-      </div>
+      <Player />
     </div>
   )
 }
