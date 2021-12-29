@@ -26,7 +26,7 @@ function Sidebar() {
         }
     }, [session, spotifyApi])
     return (
-        <section role='sidebar' className="lg:max-w-[15rem] sm:max-w-[12rem] sm:text-sm lg:text-lg md:inline-flex flex-none scrollbar-hide scroll-smooth overflow-y-auto text-gray-400 flex-col h-screen bg-black p-5 hidden">
+        <section role='sidebar' className="lg:max-w-[15rem] pb-36 sm:max-w-[12rem] sm:text-sm lg:text-lg md:inline-flex flex-none scrollbar-hide scroll-smooth overflow-y-auto text-gray-400 flex-col h-screen bg-black p-5 hidden">
             <div>
                 <button className="pb-4 flex items-center hover:text-white">
                     <HomeIcon className='h-5 w-5'/>
